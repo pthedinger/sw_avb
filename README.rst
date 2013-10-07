@@ -1,7 +1,7 @@
 AVB Software Stack
 ..................
 
-:Latest release: 5.2.1beta1
+:Latest release: 5.2.1rc1
 :Maintainer: XMOS
 :Description: AVB software stack
 
@@ -15,7 +15,7 @@ Key Features
 * gPTP server and protocol
 * Audio interface for I2S and TDM
 * Media clock recovery and interface to PLL clock source
-* Support for 1722.1 AVDECC: ADP, AECP (AEM) and ACMP Draft 21
+* Support for 1722.1 AVDECC: ADP, AECP (AEM) and ACMP
 
 Firmware Overview
 =================
@@ -36,8 +36,8 @@ Required software (dependencies)
 ================================
 
   * sc_i2c (https://github.com/xcore/sc_i2c.git)
+  * sc_util (git@github.com:xcore/sc_util)
+  * sc_slicekit_support (origin)
+  * sc_otp (git@github.com:xcore/sc_otp)
   * sc_ethernet (https://github.com/xcore/sc_ethernet.git)
-  * sc_otp (https://github.com/xcore/sc_otp.git)
-  * sc_util (https://github.com/xcore/sc_util.git)
-  * sc_slicekit_support (https://github.com/xcore/sc_slicekit_support.git)
 
